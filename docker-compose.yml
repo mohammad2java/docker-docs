@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  webapp:
+    image: webapp2:latest
+    command: java -jar /home/service-web-0.0.1-SNAPSHOT.jar
+    volumes:
+     - D:/data/data_share:/dev2
+    ports:
+      - "8080:8080"
+  
