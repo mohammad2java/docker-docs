@@ -271,6 +271,7 @@
     
           
       
-      
+      windows10: docker volume location:
+      \\wsl$\docker-desktop-data\version-pack-data\community\docker\volumes
    
      
